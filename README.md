@@ -16,5 +16,5 @@ Ejecutar `yarn test`. Este deberá ser exitoso para poder realizar un PR
 1) Instalar `yarn`: https://yarnpkg.com/lang/en/docs/install/#mac-stable
 2) Instalar `react-native-cli` https://facebook.github.io/react-native/docs/getting-started.html
 3) Ejecutar `yarn`
-4) Ejecutar `react-native run-ios`
-5) Ejecutar `react-native run-android`
+4) Ejecutar `yarn ios` Para ejecutar en debug iOS
+5) Ejecutar `yarn Android` Para ejecutar en debug Android
