@@ -1,5 +1,5 @@
 export const HOME = 'HOME';
 
-export const ARTISTS = 'ARTISTS';
+export const ARTISTS = 'TOP ARTISTAS';
 
-export const SONGS = 'SONGS';
+export const SONGS = 'TOP CANCIONES';

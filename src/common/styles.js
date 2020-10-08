@@ -42,4 +42,7 @@ export default StyleSheet.create({
     position: 'absolute',
     bottom: 40,
   },
+  header: {
+    backgroundColor: colors.buttonBackground,
+  },
 });

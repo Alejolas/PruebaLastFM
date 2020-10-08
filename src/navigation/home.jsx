@@ -4,6 +4,7 @@ import * as routes from './routes';
 import Home from '../views/Home';
 import Artists from '../views/Artists';
 import Songs from '../views/Songs';
+import styles from '../common/styles';
 
 const Stack = createStackNavigator();
 
@@ -19,12 +20,15 @@ export default () => (
     <Stack.Screen
       component={Artists}
       name={routes.ARTISTS}
-      options={{ headerShown: false }}
+      options={{
+        headerShown: true,
+        headerStyle: styles.header,
+      }}
     />
     <Stack.Screen
       component={Songs}
       name={routes.SONGS}
-      options={{ headerShown: false }}
+      options={{ headerShown: true, headerStyle: styles.header }}
     />
   </Stack.Navigator>
 );
