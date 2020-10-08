@@ -5,7 +5,7 @@ App para prueba técnica.
 ## ATENCION A QUIEN REVISE:
 
 Aunque esta app está desarrollada en React-Native, NO pude probar funcionalidad en iOS puesto que fue desarrollada en Windows y no cuento con un Mac.
-Razón por la cual, sólo funciona en Android.
+Razón por la cual, sólo ha sido probada en Android.
 
 ## Testing
 
