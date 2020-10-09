@@ -33,6 +33,7 @@ export default StyleSheet.create({
     marginVertical: 60,
   },
   spinner: {
+    backgroundColor: colors.backGroundPrimary,
     position: 'absolute',
     top: '40%',
     left: '40%',
@@ -44,5 +45,9 @@ export default StyleSheet.create({
   },
   header: {
     backgroundColor: colors.buttonBackground,
+  },
+  headerTitle: {
+    color: colors.black,
+    fontWeight: 'bold',
   },
 });
