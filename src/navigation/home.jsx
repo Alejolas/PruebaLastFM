@@ -23,12 +23,17 @@ export default () => (
       options={{
         headerShown: true,
         headerStyle: styles.header,
+        headerTitleStyle: styles.headerTitle,
       }}
     />
     <Stack.Screen
       component={Songs}
       name={routes.SONGS}
-      options={{ headerShown: true, headerStyle: styles.header }}
+      options={{
+        headerShown: true,
+        headerStyle: styles.header,
+        headerTitleStyle: styles.headerTitle,
+      }}
     />
   </Stack.Navigator>
 );

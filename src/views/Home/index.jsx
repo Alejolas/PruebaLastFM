@@ -18,8 +18,8 @@ const Home = () => {
   const { navigate } = useNavigation();
 
   const buttons = [
-    { title: 'Buscar Top Artistas', route: routes.ARTISTS },
-    { title: 'Buscar Top Canciones', route: routes.SONGS },
+    { title: 'Ver top Artistas', route: routes.ARTISTS },
+    { title: 'Ver top Canciones', route: routes.SONGS },
   ];
 
   return (
