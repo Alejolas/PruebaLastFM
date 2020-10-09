@@ -7,6 +7,7 @@ export default StyleSheet.create({
   container: {
     backgroundColor: colors.buttonBackground,
     margin: width * 0.03,
+    paddingBottom: 5,
     borderRadius: width * 0.05,
     shadowColor: colors.black,
     shadowOffset: { width: 0.5, height: 0.5 },
@@ -20,23 +21,17 @@ export default StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
   },
-  name: {
+  listeners: {
     marginVertical: width * 0.05,
     marginHorizontal: width * 0.02,
     color: colors.black,
     fontSize: 18,
   },
-  listeners: {
-    color: colors.black,
-  },
-  mbid: {
-    color: colors.black,
-  },
   url: {
+    marginVertical: width * 0.05,
+    marginHorizontal: width * 0.02,
     color: colors.black,
-  },
-  streamable: {
-    color: colors.black,
+    fontSize: 18,
   },
   image: {
     height: height / 6,
