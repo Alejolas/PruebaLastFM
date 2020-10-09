@@ -14,7 +14,7 @@ export default StyleSheet.create({
     width: 150,
     height: 150,
     alignSelf: 'center',
-    marginVertical: 30,
+    marginVertical: 60,
   },
   backGroundPrimary: {
     backgroundColor: colors.backGroundPrimary,
